@@ -6,7 +6,11 @@ Raindrop [] r = new Raindrop [count];
 void setup() {
   size(1100, 700);
   mouse = new PVector();   //initialize mouse PVector[i]. value is irrelevant since it will be set at the start of void draw(){}
+<<<<<<< HEAD
   q = new Catcher(100);
+=======
+ q = new Catcher(70);
+>>>>>>> origin/master
   for (int i = 0; i < count; i++)
     r[i] = new Raindrop(random(width), 0);   //Initialize r[i]. The parameters used are the initial x and y positions
 }

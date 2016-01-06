@@ -2,7 +2,7 @@
 // On your own, create an array of Raindrop objects instead of just one
 // Use the array instead of the single object
 // You can start out by just using the single Raindrop as you test
-int count = 45;
+int count = 15;
 PVector mouse;
 Catcher q;
 Raindrop [] r = new Raindrop [count];
@@ -10,15 +10,7 @@ Raindrop [] r = new Raindrop [count];
 void setup() {
   size(1100, 700);
   mouse = new PVector();   //initialize mouse PVector[i]. value is irrelevant since it will be set at the start of void draw(){}
-<<<<<<< HEAD
-<<<<<<< HEAD
   q = new Catcher(100);
-=======
- q = new Catcher(70);
->>>>>>> origin/master
-=======
-  q = new Catcher(70);
->>>>>>> parent of dc3aa1c... catcher mod
   for (int i = 0; i < count; i++)
     r[i] = new Raindrop(random(width), 0);   //Initialize r[i]. The parameters used are the initial x and y positions
 }
